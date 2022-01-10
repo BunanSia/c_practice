@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+	int a,b;
+	printf("Please put the length of line AB & AC\n");
+	scanf("%d\n",&a);
+	printf("\n");
+	scanf("%d",&b);
+	while(a>=b){printf("AB must be smaller than AC, please try again\n");
+		scanf("%d\n",&a);
+	printf("\n");
+	scanf("%d",&b);
+	}
+		double c;
+	c=(a/1.0)/(b/1.0);
+	printf("sinC is %f",c);
+		return 0;
+	}
+	
+
+
